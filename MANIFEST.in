@@ -1,0 +1,10 @@
+exclude *
+prune *
+include MANIFEST.in
+include LICENSE
+include README.rst
+include setup.py
+graft kata_test_framework
+graft kata_test_framework.egg-info
+global-exclude .DS_Store
+global-exclude *.py[cod]
